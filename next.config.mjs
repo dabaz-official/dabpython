@@ -3,9 +3,11 @@ import { createLoader } from 'simple-functional-loader'
 
 import withSearch from './src/markdoc/search.mjs'
 
+const withMDX = require('@next/mdx')()
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['js', 'jsx', 'md', 'ts', 'tsx'],
+  pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   webpack(config) {
     config.module.rules.unshift({
       test: /\.md$/,
@@ -22,6 +24,8 @@ const nextConfig = {
   },
 }
 
-export default withSearch(
-  withMarkdoc({ schemaPath: './src/markdoc' })(nextConfig),
+export default withMDX(
+  withSearch(
+    withMarkdoc({ schemaPath: './src/markdoc' })(nextConfig),
+  )
 )

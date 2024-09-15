@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "dabpython",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Docs for learning Python.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,16 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/dabaz-official/dabpython.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "DabAZ <dabaz@dabaz.me>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
-  },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/dabaz-official/dabpython/#readme",
   "dependencies": {
-    "next": "^13.0.6",
+    "next": "^14.2.0",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",

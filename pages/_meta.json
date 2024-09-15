@@ -1,5 +1,5 @@
 {
-  "index": "Introduction",
+  "index": "简介",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
   "about": {
@@ -7,9 +7,9 @@
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "DabAZ ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://dabaz.me",
     "newWindow": true
   }
 }
